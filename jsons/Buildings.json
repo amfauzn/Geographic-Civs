@@ -1,0 +1,177 @@
+[	
+	// East Asia
+	{
+		"name": "Papers Maker",
+		"replaces": "Library",
+		"uniqueTo": "East Asia",
+		"hurryCostModifier": 25,
+		"gold": 2,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Kreposs",
+		"replaces": "Barracks",
+		"uniqueTo": "East Asia",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]","-[25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	
+	// Middle East
+	{
+		"name": "Babylon's Walls",
+		"replaces": "Walls",
+		"cost": 65,
+		"uniqueTo": "Middle East",
+		"cityStrength": 6,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bazar",
+		"replaces": "Market",
+		"uniqueTo": "Middle East",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["Provides 1 extra copy of each improved luxury resource near this City",
+			"[+2 Gold] from [Oil] tiles [in this city]", "[+2 Gold] from [Oasis] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	
+	// Western Europe
+	{
+		"name": "Hanse",
+		"replaces": "Bank",
+		"uniqueTo": "Western Europe",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Coffee Hose",
+		"replaces": "Windmill",
+		"uniqueTo": "Western Europe",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["[+25]% great person generation [in this city]"],
+		"requiredTech": "Economics"
+	},
+	
+	// Northern Europe
+	{
+		"name": "Ceilid Hall",
+		"replaces": "Opera House",
+		"uniqueTo": "Celts",
+		"culture": 4,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	
+	// Africa
+	{
+		"name": "Sstele",
+		"replaces": "Monument",
+		"uniqueTo": "Africa",
+		"culture": 2,
+		"faith": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
+	},
+	{
+		"name": "Burials Tomb",
+		"replaces": "Temple",
+		"uniqueTo": "Africa",
+		"maintenance": 0,
+		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"faith": 2,
+		"happiness": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Mud Pyramid Masjeed",
+		"uniqueTo": "Africa",
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Must be next to [Desert]"],
+		"culture": 2,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"requiredTech": "Philosophy"
+	},
+	
+	// NS America
+	{
+		"name": "Pyramed",
+		"replaces": "Shrine",
+		"uniqueTo": "NS America",
+		"faith": 2,
+		"science": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Floating Garden",
+		"replaces": "Water Mill",
+		"uniqueTo": "NS America",
+		"food": 2,
+		"production": 1,
+		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"percentStatBonus": {"food": 15},
+		"requiredTech": "The Wheel"
+	},
+	
+	// Oceania
+	{
+		"name": "Muggal Fort",
+		"cost": 150,
+		"replaces": "Castle",
+		"uniqueTo": "Oceania",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"culture": 2,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["[+1 Gold] <after discovering [Flight]>", "Destroyed when the city is captured"],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Waat",
+		"replaces": "University",
+		"uniqueTo": "Oceania",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"culture": 3,
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	}
+]

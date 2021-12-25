@@ -1,0 +1,40 @@
+[	
+	{
+		"name": "Maize",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
+		"food": 1,
+		"improvement": "Farm",
+		"improvementStats": {"food": 0}
+	},
+	{
+		"name": "Jade",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland", "Plains", "Desert", "Hill", "Tundra"],
+		"gold": 1,
+		"improvement": "Mine",
+		"improvementStats": {"gold": 1, "production": 1}
+	},
+	{
+		"name": "Tea", 
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Plains", "Grassland"],
+		"production": 1,
+		"gold": 1,
+		"improvement": "Plantation",
+		"improvementStats": {"gold": 1}
+	},
+	{
+		"name": "Perfume",
+		"resourceType": "Luxury",
+		"gold": 1,
+		"culture": 1,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	},
+	{
+		"name": "Lapis Lazuli",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States"]
+	}
+]
