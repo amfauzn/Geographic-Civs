@@ -56,7 +56,7 @@
 		"innerColor": [213,249,255],
 		//No favored religion
 		"uniqueName": "Ingenuity of Trading and Barbary Corsairs Legacy",
-		"uniqueText": "All uniques of Babylon, Arabia, Ottomans, Persia, and India.",
+		"uniqueText": "All uniques of Babylon, Arabia, Ottomans, and Persia.",
 		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster", 
 			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced", "[-66]% maintenance costs for [Water] units",
 			"50% chance of capturing defeated Barbarian naval units and earning 25 Gold", "Golden Age length increased by [50]%", 
@@ -252,7 +252,7 @@
 		"innerColor": [0, 0, 0],
 		//No favored religion
 		"uniqueName": "Wayfinding",
-		"uniqueText": "All uniques of Polynesia, Siam, and The Huns without 'borrow' cities name.",
+		"uniqueText": "All uniques of Polynesia, Siam, India, and The Huns without 'borrow' cities name.",
 		"uniques": ["Can embark and move over Coasts and Oceans immediately", "Normal vision when embarked <for [All] units>", 
 			"+[10]% Strength if within [2] tiles of a [Moai]", "[+50]% [Food] from City-States", "[+50]% [Culture] from City-States", 
 			"[+50]% [Faith] from City-States", "Military Units gifted from City-States start with [+10] XP", 
