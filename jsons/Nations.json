@@ -2,10 +2,10 @@
 	{
 		"name": "East Asia",
 		"leaderName": "Summit",
-		"adjective": ["Eastern-asian"],
+		"adjective": ["eastern-asian"],
 		"startBias": ["Plains", "Coast", "Tundra"],
 		//No preferred victory type
-		"style": "Asian",
+		//"style": "Asian",
 		
 		"startIntroPart1": "Blessings upon you, noble Summit, ruler of East Asia! May you long walk among its flowering blossoms. Your civilization stretches back thousands of years, its people achieving many great things long before the other upstart civilizations were even conceived.",
 		"startIntroPart2": "Honorable Summit, will you build a civilization that can stand the test of time?",
@@ -35,10 +35,10 @@
 	{
 		"name": "Middle East",
 		"leaderName": "Council",
-		"adjective": ["Middle-eastern"],
+		"adjective": ["middle-eastern"],
 		"startBias": ["Desert", "Coast"],
 		//No preferred victory type
-		"style": "Asian",
+		//"style": "Asian",
 		
 		"startIntroPart1": "Blessings of God be upon you oh great Council, father of mighty Middleeastern people! The arts and sciences flourished in Middle East during the Middle Ages, even as the countries of Europe descended into ignorance and chaos. Truly was Middle East the center of arts and learning in the past.",
 		"startIntroPart2": "Great Council, will you build a civilization that can stand the test of time?",
@@ -67,10 +67,10 @@
 	{
 		"name": "Western Europe",
 		"leaderName": "Chancellor",
-		"adjective": ["Western-european"],
+		"adjective": ["western-european"],
 		"startBias": ["Hill", "Grassland"],
 		//No preferred victory type
-		"style": "European",
+		//"style": "European",
 		
 		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of Western Europe, Chancellor. The Western-european people have proven themselves to be creative, industrious and ferocious warriors. Although surrounded by competitors - and often enemies - Western Europe has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
 		"startIntroPart2": "brave Chancellor, will you build a civilization that can stand the test of time?",
@@ -98,10 +98,10 @@
 	{
 		"name": "Northern Europe",
 		"leaderName": "Unionette",
-		"adjective": ["Northern-european"],
+		"adjective": ["northern-european"],
 		"startBias": ["Coast", "Tundra", "Forest"],
 		//No preferred victory type
-		"style": "European",
+		//"style": "European",
 		
 		"startIntroPart1": "Eternal glory and praise for you, fierce and vengeful Warrior Queen! In a time dominated by men, you not only secured your throne and sovereign rule, but also successfully defied the power of the enemies. For many years your people dominated the world stage, their matchless navy, brilliant artists and shrewd merchants, giving them power and influence far in excess of their mere numbers.",
 		"startIntroPart2": "Queen Unionette, will you build a civilization that can stand the test of time?",
@@ -131,10 +131,10 @@
 	{
 		"name": "Southern Europe",
 		"leaderName": "Union",
-		"adjective": ["Southern-european"],
-		"startBias": ["Avoid [Tundra]", "Avoid [Desert]", "Coast"],
+		"adjective": ["southern-european"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Desert]"],
 		//No preferred victory type
-		"style": "European",
+		//"style": "European",
 		
 		"startIntroPart1": "Blessed Union, servant of God, holy leader of Southern-european! Your people greet and welcome you. You are the ruler of Southern-european, a beautiful and ancient country at the crossroads of the world between Europe and Africa, one shore on the Mediterranean and the other on the mighty Atlantic Ocean.",
 		"startIntroPart2": "O fair and virtuous Union, will you build a civilization that can stand the test of time?",
@@ -164,10 +164,10 @@
 	{
 		"name": "Africa",
 		"leaderName": "Union",
-		"adjective": ["African"],
-		"startBias": ["Jungle", "Avoid [Forest]", "Avoid [Tundra]"],
+		"adjective": ["africans"],
+		"startBias": ["Jungle"],
 		//No preferred victory type
-		"style": "African",
+		//"style": "African",
 		
 		"startIntroPart1": "May the blessings of God, who is greatest of all, be upon you Union, leader of the Africa people! For many years your people was a vassal of the mighty African, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
 		"startIntroPart2": "Oh, Union, will you build a civilization that can stand the test of time?",
@@ -189,7 +189,7 @@
 		"uniques": ["[+20]% Production when constructing [All] wonders [in all cities]", 
 			"Receive triple Gold from Barbarian encampments and pillaging Cities", "Embarked units can defend themselves", 
 			"[+20]% Strength <when fighting units from a Civilization with more Cities than you>", 
-			"Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned",
+			"Gain a free [Harbor] [in all coastal cities]", "Land units may cross [Mountain] tiles after the first [Great General] is earned",
 			"Units ending their turn on [Mountain] tiles take [50] damage"],
 		"cities": ["Egypt","Ethiopia","Songhai","Kartago","Naqada","Semna","Soleb","Dori","Bamba","Segou",
 			"Gambela","Ziway","Weldiya","Rusadir","Baecula","Saldae"]
@@ -197,10 +197,10 @@
 	{
 		"name": "NS America",
 		"leaderName": "Union",
-		"adjective": ["American"],
+		"adjective": ["americans"],
 		"startBias": ["Jungle", "Forest", "Hill"],
 		//No preferred victory type
-		"style": "American",
+		//"style": "American",
 		
 		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, King Union, ruler of American people! From the beginnings, the Americans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
 		"startIntroPart2": "O great king Union, will you build a civilization that can stand the test of time?",
@@ -231,10 +231,10 @@
 	{
 		"name": "Oceania",
 		"leaderName": "Asso",
-		"adjective": ["Oceanian"],
+		"adjective": ["oceanian"],
 		"startBias": ["Avoid [Jungle]", "Avoid [Forest]"],
 		//No preferred victory type
-		"style": "Oceanian",
+		//"style": "Oceanian",
 		
 		"startIntroPart1": "Greetings and blessings be upon you, Asso the Great, chosen by the heavens to unite your scattered peoples. You were the first to standardized the legal and taxation systems, an edict protecting civilians in times of war. You ensured the continued unification and sovereignty of the islands by your strong laws and deeds.",
 		"startIntroPart2": "Oh wise and exalted King, will you build a civilization that can stand the test of time?",
@@ -251,10 +251,10 @@
 		"outerColor": [255,255,78],
 		"innerColor": [0, 0, 0],
 		//No favored religion
-		"uniqueName": "Wayfinding",
+		"uniqueName": "Wayfindings",
 		"uniqueText": "All uniques of Polynesia, Siam, India, and The Huns without 'borrow' cities name.",
 		"uniques": ["Can embark and move over Coasts and Oceans immediately", "Normal vision when embarked <for [All] units>", 
-			"+[10]% Strength if within [2] tiles of a [Moai]", "[+50]% [Food] from City-States", "[+50]% [Culture] from City-States", 
+			"+[10]% Strength if within [2] tiles of a [Moei]", "[+50]% [Food] from City-States", "[+50]% [Culture] from City-States", 
 			"[+50]% [Faith] from City-States", "Military Units gifted from City-States start with [+10] XP", 
 			"[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", 
 			"Unhappiness from number of Cities doubled", "[-50]% unhappiness from population [in all cities]"],
