@@ -75,7 +75,7 @@
 	{
 		"name": "Ceilid Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "Celts",
+		"uniqueTo": "Northern Europe",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
