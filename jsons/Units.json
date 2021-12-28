@@ -1,35 +1,37 @@
 [
 	// East Asia
 	{
+		"name": "Kesik",
+		"unitType": "Archery",
+		"replaces": "Knight",
+		"uniqueTo": "East Asia",
+		"range": 2,
+		"movement": 5,
+		"strength": 15,
+		"rangedStrength": 16,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"promotions": ["Quick Study"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Cu-Ko-Nu-Re-Su",
 		"unitType": "Archery",
+		"replaces": "Crossbowman",
 		"uniqueTo": "East Asia",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 14,
-		"replaces": "Crossbowman",
 		"cost": 120,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["Logistics"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Samurei",
-		"unitType": "Sword",
-		"replaces": "Longswordsman",
-		"uniqueTo": "East Asia",
-		"movement": 2,
-		"strength": 21,
-		"cost": 120,
-		"requiredTech": "Steel",
-		"upgradesTo": "Musketman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"promotions": ["Shock I", "Great Generals II"],
-		"attackSound": "metalhit"
-		//Samurai should also create Fishing Boats (not now, surely)
 	},
 	{
 		"name": "Hwacha",
@@ -47,22 +49,20 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Kesik",
-		"unitType": "Archery",
-		"replaces": "Knight",
+		"name": "Samurei",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
 		"uniqueTo": "East Asia",
-		"range": 2,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
+		"movement": 2,
+		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Chivalry",
-		"requiredResource": "Horses",
-		"upgradesTo": "Cavalry",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
-		"promotions": ["Quick Study"],
-		"attackSound": "arrow"
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["Shock I", "Great Generals II"],
+		"attackSound": "metalhit"
+		//Samurai should also create Fishing Boats (not now, surely)
 	},
 	{
 		"name": "Turtle Ships",
@@ -152,23 +152,6 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Sepahi",
-		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "Middle East",
-		"movement": 5,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Sight", "No movement cost to pillage"],
-		"promotions": ["Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
-	{
 		"name": "Camels Archer",
 		"unitType": "Archery",
 		"replaces": "Knight",
@@ -198,6 +181,23 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["Heals [50] damage if it kills a unit", "[+25]% Strength <when attacking>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Sepahi",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Middle East",
+		"movement": 5,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
+			"[+1] Sight", "No movement cost to pillage"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
 	},
 	
 	// Western Europe
@@ -255,8 +255,8 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"[+1] Sight", "[+50]% to Flank Attack bonuses"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ,
+		"[+1] Sight", "[+50]% to Flank Attack bonuses" ],
 		"attackSound": "horse"
 	},
 	{
@@ -291,23 +291,19 @@
 	
 	// Northern Europe
 	{
-		"name": "Norwegian Infantry",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
+		"name": "Pictis Warrior",
+		"unitType": "Sword",
+		"replaces": "Spearman",
 		"uniqueTo": "Northern Europe",
 		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
-			"[+25]% Strength <when fighting in [Tundra] tiles>",
-			"[+25]% Strength <when fighting in [Hill] tiles>",
-			"Double movement in [Snow]",
-			"Double movement in [Tundra]",
-			"Double movement in [Hill]"],
-		"attackSound": "shot"
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
+		"promotions": ["Pictish Courage"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Berserkers",
@@ -325,37 +321,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
-	},
-	{
-		"name": "Hakkapelitta",
-		"unitType": "Mounted",
-		"replaces": "Lancer",
-		"uniqueTo": "Northern Europe",
-		"movement": 4,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
-			"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"],
-		"promotions": ["Formation I"],
-		"upgradesTo": "Anti-Tank Gun",
-		"obsoleteTech": "Combined Arms",
-		"attackSound": "horse"
-	},
-	{
-		"name": "Carolian",
-		"unitType": "Gunpowder",
-		"replaces": "Rifleman",
-		"uniqueTo": "Northern Europe",
-		"movement": 2,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Rifling",
-		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Great War Infantry",
-		"promotions": ["March"],
-		"attackSound": "shot"
 	},
 	{
 		"name": "Longbowmen",
@@ -391,54 +356,70 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Pictis Warrior",
-		"unitType": "Sword",
-		"replaces": "Spearman",
+		"name": "Hakkapelitta",
+		"unitType": "Mounted",
+		"replaces": "Lancer",
+		"uniqueTo": "Northern Europe",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
+			"Transfer Movement to [Great General]", "[+15]% Strength when stacked with [Great General]"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Carolian",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
 		"uniqueTo": "Northern Europe",
 		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
-		"uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
-		"promotions": ["Pictish Courage"],
-		"attackSound": "metalhit"
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Infantry",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Northern Europe",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"uniques": ["[+25]% Strength <when fighting in [Snow] tiles>",
+			"[+25]% Strength <when fighting in [Tundra] tiles>",
+			"[+25]% Strength <when fighting in [Hill] tiles>",
+			"Double movement in [Snow]",
+			"Double movement in [Tundra]",
+			"Double movement in [Hill]"],
+		"attackSound": "shot"
 	},
 	
 	// Southern Europe
 	{
-		"name": "Balista",
-		"unitType": "Siege",
-		"replaces": "Catapult",
+		"name": "Dromons",
+		"unitType": "Ranged Water",
 		"uniqueTo": "Southern Europe",
-		"movement": 2,
+		"replaces": "Trireme",
+		"movement": 4,
 		"strength": 8,
 		"rangedStrength": 10,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
-		"hurryCostModifier": 20,
-		"attackSound": "throw"
-	},
-	{
-		"name": "Legiun",
-		"unitType": "Sword",
-		"uniqueTo": "Southern Europe",
-		"replaces": "Swordsman",
-		"movement": 2,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Gunpowder",
-		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit"
+		"cost": 56,
+		"requiredTech": "Sailing",
+		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
+		"upgradesTo": "Galleass",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "arrow"
 	},
 	{
 		"name": "Hopplite",
@@ -453,6 +434,21 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Catapract",
+		"unitType": "Mounted",
+		"uniqueTo": "Southern Europe",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
 	},
 	{
 		"name": "Companion Cavalery",
@@ -471,6 +467,22 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Legiun",
+		"unitType": "Sword",
+		"uniqueTo": "Southern Europe",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Conquestador",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -482,10 +494,28 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight", "Defense bonus when embarked"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight", 
+			"Defense bonus when embarked"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+	},
+	{
+		"name": "Balista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Southern Europe",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
 	},
 	{
 		"name": "Terceo",
@@ -500,36 +530,6 @@
 		"obsoleteTech": "Rifling",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "shot"
-	},
-	{
-		"name": "Dromons",
-		"unitType": "Ranged Water",
-		"uniqueTo": "Southern Europe",
-		"replaces": "Trireme",
-		"movement": 4,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "[+50]% Strength <vs [Water] units>"],
-		"upgradesTo": "Galleass",
-		"obsoleteTech": "Astronomy",
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Catapract",
-		"unitType": "Mounted",
-		"uniqueTo": "Southern Europe",
-		"replaces": "Horseman",
-		"movement": 3,
-		"strength": 15,
-		"cost": 75,
-		"requiredTech": "Horseback Riding",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking", "[-25]% Strength <vs cities>"],
-		"hurryCostModifier": 20,
-		"attackSound": "horse"
 	},
 	
 	// Africa
@@ -546,6 +546,21 @@
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Wars Chariot",
+		"unitType": "Archery",
+		"uniqueTo": "Africa",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"attackSound": "arrow"
 	},
 	{
 		"name": "African Elephant",
@@ -565,21 +580,6 @@
 		"attackSound": "elephant"
 	},
 	{
-		"name": "Wars Chariot",
-		"unitType": "Archery",
-		"uniqueTo": "Africa",
-		"replaces": "Chariot Archer",
-		"movement": 5,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Mandekalu Cavalery",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -591,7 +591,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
 	{
@@ -611,20 +611,6 @@
 	
 	// NS America
 	{
-		"name": "Jaguars",
-		"unitType": "Sword",
-		"uniqueTo": "NS America",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 40,
-		"obsoleteTech": "Metal Casting",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", "Heals [25] damage if it kills a unit"],
-		"promotions": ["Woodsman"],
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Atlatlean",
 		"unitType": "Archery",
 		"uniqueTo": "NS America",
@@ -636,6 +622,21 @@
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Jaguars",
+		"unitType": "Sword",
+		"uniqueTo": "NS America",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>", 
+			"Heals [25] damage if it kills a unit"],
+		"promotions": ["Woodsman"],
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Slingers",
@@ -714,22 +715,6 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
-		"uniqueTo": "Oceania",
-		"movement": 2,
-		"strength": 10,
-		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-			"[-1] Sight", "Can only attack [City] units"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
-	},
-	{
 		"name": "Archery Horse",
 		"unitType": "Archery",
 		"uniqueTo": "Oceania",
@@ -760,6 +745,22 @@
 		"attackSound": "elephant"
 	},
 	{
+		"name": "Ram",
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"replaces": "Spearman",
+		"uniqueTo": "Oceania",
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+			"[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Naresuan Elephant",
 		"unitType": "Mounted",
 		"replaces": "Knight",
@@ -770,7 +771,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[+50]% Strength <vs [Mounted] units>","[-33]% Strength <vs cities>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [Mounted] units>", "[-33]% Strength <vs cities>"],
 		"attackSound": "elephant"
 	}
 ]
