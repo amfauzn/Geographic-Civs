@@ -255,8 +255,8 @@
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ,
-		"[+1] Sight", "[+50]% to Flank Attack bonuses" ],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>",
+			"[+1] Sight", "[+50]% to Flank Attack bonuses"],
 		"attackSound": "horse"
 	},
 	{
@@ -458,7 +458,6 @@
 		"name": "Companion Cavalery",
 		"unitType": "Mounted",
 		"uniqueTo": "Southern Europe",
-		"replaces": "Horseman",
 		"movement": 5,
 		"strength": 14,
 		"cost": 75,
@@ -483,7 +482,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight", "Defense bonus when embarked"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Founds a new city <on foreign continents>", "[+2] Sight", "Defense bonus when embarked"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
@@ -592,7 +591,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
 		"attackSound": "horse"
 	},
 	{
@@ -725,8 +724,8 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>"],
-		"[-1] Sight", "Can only attack [City] units"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+			"[-1] Sight", "Can only attack [City] units"],
 		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
