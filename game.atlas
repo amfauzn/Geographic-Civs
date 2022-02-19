@@ -1,943 +1,845 @@
 
 game.png
-size: 1024, 1024
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
+BuildingIcons/African's Stele
+  rotate: false
+  xy: 4, 185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/African's Temple
+  rotate: false
+  xy: 112, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 BuildingIcons/Babylon's Walls
   rotate: false
-  xy: 220, 906
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Bazar
-  rotate: false
-  xy: 112, 690
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Burials Tomb
-  rotate: false
-  xy: 112, 582
+  xy: 4, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ceilid Hall
   rotate: false
-  xy: 4, 366
+  xy: 328, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Coffee Hose
+BuildingIcons/EA Paper Maker
   rotate: false
-  xy: 112, 474
+  xy: 220, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Floating Garden
   rotate: false
-  xy: 220, 474
+  xy: 436, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hanse
   rotate: false
-  xy: 652, 906
+  xy: 544, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Kreposs
+BuildingIcons/Krepos
   rotate: false
-  xy: 4, 42
+  xy: 760, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Mud Pyramid Masjeed
+BuildingIcons/ME Bazaar
   rotate: false
-  xy: 652, 582
+  xy: 976, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Muggal Fort
+BuildingIcons/NS Pyramid
   rotate: false
-  xy: 760, 690
+  xy: 1300, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Papers Maker
+BuildingIcons/TR Mughal Fort
   rotate: false
-  xy: 868, 690
+  xy: 1516, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Pyramed
+BuildingIcons/TR Wat
   rotate: false
-  xy: 760, 474
+  xy: 1732, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Sstele
+BuildingIcons/WE Coffee House
   rotate: false
-  xy: 760, 258
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Waat
-  rotate: false
-  xy: 328, 42
+  xy: 1732, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Moei
   rotate: false
-  xy: 436, 366
+  xy: 1192, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Polders
+ImprovementIcons/Terrace farming
   rotate: false
-  xy: 652, 366
+  xy: 1624, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Terrace farms
+ImprovementIcons/WE Polder
   rotate: false
-  xy: 868, 258
+  xy: 1840, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Africa
   rotate: false
-  xy: 4, 906
+  xy: 4, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/East Asia
   rotate: false
-  xy: 112, 366
+  xy: 328, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Middle East
   rotate: false
-  xy: 220, 154
+  xy: 976, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/NS America
   rotate: false
-  xy: 220, 46
+  xy: 1300, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Northern Europe
   rotate: false
-  xy: 436, 258
+  xy: 1192, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Oceania
   rotate: false
-  xy: 652, 474
+  xy: 1300, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Southern Europe
   rotate: false
-  xy: 652, 150
+  xy: 1732, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Western Europe
   rotate: false
-  xy: 652, 42
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Jade
-  rotate: false
-  xy: 436, 582
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Lapis Lazuli
-  rotate: false
-  xy: 220, 262
-  size: 100, 96
-  orig: 100, 96
-  offset: 0, 0
-  index: -1
-ResourceIcons/Maize
-  rotate: false
-  xy: 652, 690
+  xy: 1840, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Perfume
   rotate: false
-  xy: 436, 150
+  xy: 1516, 401
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Tea
-  rotate: false
-  xy: 868, 366
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Jade
-  rotate: false
-  xy: 976, 541
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Maize
-  rotate: false
-  xy: 976, 250
-  size: 32, 30
-  orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Moei
   rotate: false
-  xy: 204, 5
+  xy: 284, 40
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Polders
+TileSets/FantasyHex/Tiles/Terrace farming
   rotate: false
-  xy: 484, 5
+  xy: 604, 41
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/WE Polder
+  rotate: false
+  xy: 724, 40
   size: 32, 29
   orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Tea
-  rotate: false
-  xy: 724, 6
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Terrace farms
-  rotate: false
-  xy: 804, 6
-  size: 32, 28
-  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/African Elephant
   rotate: false
-  xy: 4, 5
+  xy: 4, 40
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/African War Chariot
+  rotate: false
+  xy: 1948, 473
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Archery Horse
   rotate: false
-  xy: 976, 978
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Atlatlean
-  rotate: false
-  xy: 868, 114
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Balista
-  rotate: false
-  xy: 44, 6
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Beggar
   rotate: false
-  xy: 976, 942
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Berserkers
-  rotate: false
-  xy: 868, 78
+  xy: 44, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bowmen
   rotate: false
-  xy: 908, 114
+  xy: 1948, 437
   size: 32, 28
   orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Camels Archer
-  rotate: false
-  xy: 976, 905
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Carolian
-  rotate: false
-  xy: 84, 6
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Catapract
-  rotate: false
-  xy: 868, 42
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Companion Cavalery
-  rotate: false
-  xy: 908, 77
-  size: 32, 29
-  orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Conquestador
   rotate: false
-  xy: 976, 869
+  xy: 1988, 473
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cosack
   rotate: false
-  xy: 124, 6
+  xy: 44, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cu-Ko-Nu-Re-Su
   rotate: false
-  xy: 976, 833
+  xy: 84, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Dromons
+TileSets/FantasyHex/Units/EA Keshik
   rotate: false
-  xy: 164, 6
+  xy: 1948, 401
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EA Samurai
+  rotate: false
+  xy: 1988, 437
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EA Turtle Ship
+  rotate: false
+  xy: 84, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Foreign Legiun
   rotate: false
-  xy: 976, 797
+  xy: 124, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Generals
+TileSets/FantasyHex/Units/General
   rotate: false
-  xy: 976, 758
+  xy: 1948, 362
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hakkapelitta
   rotate: false
-  xy: 976, 722
+  xy: 1988, 401
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hopplite
   rotate: false
-  xy: 976, 686
+  xy: 124, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Husssar
-  rotate: false
-  xy: 976, 649
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Hwacha
   rotate: false
-  xy: 976, 613
+  xy: 164, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Immortal
   rotate: false
-  xy: 976, 577
+  xy: 1948, 326
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jaguars
   rotate: false
-  xy: 976, 505
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Janisary
-  rotate: false
-  xy: 976, 469
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Kesik
-  rotate: false
-  xy: 976, 433
+  xy: 1988, 365
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landsknect
   rotate: false
-  xy: 976, 397
+  xy: 164, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Legiun
   rotate: false
-  xy: 976, 361
+  xy: 204, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Line Ship
   rotate: false
-  xy: 976, 324
+  xy: 1948, 289
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longbowmen
   rotate: false
-  xy: 976, 288
+  xy: 1988, 329
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/ME Camel Archer
+  rotate: false
+  xy: 1948, 252
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/ME Janissary
+  rotate: false
+  xy: 204, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mandekalu Cavalery
   rotate: false
-  xy: 976, 214
+  xy: 244, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maori
   rotate: false
-  xy: 976, 178
+  xy: 1988, 293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mehal Safari
   rotate: false
-  xy: 908, 41
+  xy: 1948, 216
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Minutemen
   rotate: false
-  xy: 976, 142
+  xy: 244, 5
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mohawk
   rotate: false
-  xy: 244, 10
+  xy: 1988, 257
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Musketer
+TileSets/FantasyHex/Units/NE Berserker
   rotate: false
-  xy: 284, 10
+  xy: 1948, 180
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NE Carolean Infantry
+  rotate: false
+  xy: 324, 41
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/NS Archer
+  rotate: false
+  xy: 1988, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Naresuan Elephant
   rotate: false
-  xy: 324, 6
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Norwegian Infantry
-  rotate: false
-  xy: 364, 6
+  xy: 1948, 144
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Panser
   rotate: false
-  xy: 404, 6
+  xy: 364, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pictis Warrior
   rotate: false
-  xy: 444, 6
+  xy: 1988, 185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Qinquereme
   rotate: false
-  xy: 524, 6
+  xy: 1948, 108
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ram
   rotate: false
-  xy: 564, 6
+  xy: 404, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Samurei
+TileSets/FantasyHex/Units/SE Ballista
   rotate: false
-  xy: 604, 6
+  xy: 1988, 149
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/SE Dromon
+  rotate: false
+  xy: 444, 41
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/SE Horseman
+  rotate: false
+  xy: 1988, 112
+  size: 32, 29
+  orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sepahi
   rotate: false
-  xy: 644, 4
+  xy: 484, 39
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Slingers
+TileSets/FantasyHex/Units/TR War Elephant
   rotate: false
-  xy: 684, 6
+  xy: 524, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Terceo
   rotate: false
-  xy: 764, 6
+  xy: 564, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Turtle Ships
+TileSets/FantasyHex/Units/WE Hussar
   rotate: false
-  xy: 844, 6
-  size: 32, 28
-  orig: 32, 28
+  xy: 644, 40
+  size: 32, 29
+  orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/War Elephants
+TileSets/FantasyHex/Units/WE Musketeer
   rotate: false
-  xy: 884, 5
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Wars Chariot
-  rotate: false
-  xy: 924, 5
+  xy: 684, 41
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/African Elephant
   rotate: false
-  xy: 4, 798
+  xy: 4, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/African War Chariot
+  rotate: false
+  xy: 112, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Archery Horse
   rotate: false
-  xy: 112, 906
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Atlatlean
-  rotate: false
-  xy: 4, 690
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/B17s
-  rotate: false
-  xy: 112, 798
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Balista
-  rotate: false
-  xy: 4, 582
+  xy: 220, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Beggar
   rotate: false
-  xy: 220, 798
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Berserkers
-  rotate: false
-  xy: 328, 906
+  xy: 112, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Bowmen
   rotate: false
-  xy: 4, 474
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Camels Archer
-  rotate: false
-  xy: 220, 690
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Carolian
-  rotate: false
-  xy: 328, 798
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Catapract
-  rotate: false
-  xy: 436, 906
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Companion Cavalery
-  rotate: false
-  xy: 220, 582
+  xy: 220, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Conquestador
   rotate: false
-  xy: 328, 690
+  xy: 112, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cosack
   rotate: false
-  xy: 436, 798
+  xy: 220, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Cu-Ko-Nu-Re-Su
   rotate: false
-  xy: 544, 906
+  xy: 328, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Dromons
+UnitIcons/EA Keshik
   rotate: false
-  xy: 4, 258
+  xy: 436, 401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/EA Samurai
+  rotate: false
+  xy: 328, 185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/EA Turtle Ship
+  rotate: false
+  xy: 436, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/EA Zero
+  rotate: false
+  xy: 544, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Foreign Legiun
   rotate: false
-  xy: 328, 582
+  xy: 544, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Generals
   rotate: false
-  xy: 436, 690
+  xy: 652, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hakkapelitta
   rotate: false
-  xy: 544, 798
+  xy: 436, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hopplite
   rotate: false
-  xy: 4, 150
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Husssar
-  rotate: false
-  xy: 112, 258
+  xy: 652, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hwacha
   rotate: false
-  xy: 220, 366
+  xy: 760, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Immortal
   rotate: false
-  xy: 328, 474
+  xy: 544, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jaguars
   rotate: false
-  xy: 544, 690
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Janisary
-  rotate: false
-  xy: 652, 798
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Kesik
-  rotate: false
-  xy: 760, 906
+  xy: 652, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Landsknect
   rotate: false
-  xy: 112, 150
+  xy: 868, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Legiun
   rotate: false
-  xy: 328, 366
+  xy: 652, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Line Ship
   rotate: false
-  xy: 436, 474
+  xy: 760, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Longbowmen
   rotate: false
-  xy: 544, 582
+  xy: 868, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/ME Camel Archer
+  rotate: false
+  xy: 760, 77
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/ME Janissary
+  rotate: false
+  xy: 868, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mandekalu Cavalery
   rotate: false
-  xy: 760, 798
+  xy: 976, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maori
   rotate: false
-  xy: 868, 906
+  xy: 1084, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mehal Safari
   rotate: false
-  xy: 112, 42
+  xy: 868, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Minutemen
   rotate: false
-  xy: 328, 258
+  xy: 1084, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mohawk
   rotate: false
-  xy: 544, 474
+  xy: 976, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Musketer
+UnitIcons/NE Berserker
   rotate: false
-  xy: 868, 798
+  xy: 1084, 185
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/NE Carolean Infantry
+  rotate: false
+  xy: 1192, 293
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/NS Archer
+  rotate: false
+  xy: 1084, 77
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/NS B17
+  rotate: false
+  xy: 1192, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Naresuan Elephant
   rotate: false
-  xy: 328, 150
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Norwegian Infantry
-  rotate: false
-  xy: 544, 366
+  xy: 1408, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Panser
   rotate: false
-  xy: 760, 582
+  xy: 1408, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pictis Warrior
   rotate: false
-  xy: 544, 258
+  xy: 1300, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Qinquereme
   rotate: false
-  xy: 868, 582
+  xy: 1408, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ram
   rotate: false
-  xy: 544, 150
+  xy: 1516, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Samurei
+UnitIcons/SE Ballista
   rotate: false
-  xy: 652, 258
+  xy: 1624, 401
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/SE Dromon
+  rotate: false
+  xy: 1408, 77
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/SE Horseman
+  rotate: false
+  xy: 1516, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sepahi
   rotate: false
-  xy: 760, 366
+  xy: 1624, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Slingers
+UnitIcons/TR War Elephant
   rotate: false
-  xy: 868, 474
+  xy: 1624, 185
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Terceo
   rotate: false
-  xy: 760, 150
+  xy: 1840, 401
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Turtle Ships
+UnitIcons/WE Hussar
   rotate: false
-  xy: 868, 150
+  xy: 1840, 293
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/War Elephants
+UnitIcons/WE Musketeer
   rotate: false
-  xy: 436, 42
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Wars Chariot
-  rotate: false
-  xy: 544, 42
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Zeros
-  rotate: false
-  xy: 760, 42
+  xy: 1732, 77
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

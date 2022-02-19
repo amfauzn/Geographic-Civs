@@ -9,7 +9,7 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Terrace farms",
+		"name": "Terrace farming",
 		"uniqueTo": "NS America",
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
@@ -17,12 +17,12 @@
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
 			"[+1 Food] for each adjacent [Mountain]",
 			"[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] on [non-fresh water] tiles <after discovering[Fertilizer]>"],
+			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Polders",
+		"name": "WE Polder",
 		"uniqueTo": "Western Europe",
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],

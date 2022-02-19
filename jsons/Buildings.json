@@ -1,23 +1,13 @@
 [	
 	// East Asia
 	{
-		"name": "Papers Maker",
+		"name": "EA Paper Maker",
 		"replaces": "Library",
 		"uniqueTo": "East Asia",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Writing"
-	},
-	{
-		"name": "Kreposs",
-		"replaces": "Barracks",
-		"uniqueTo": "East Asia",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["-[25]% Culture cost of acquiring tiles [in this city]","-[25]% Gold cost of acquiring tiles [in this city]",
-			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
-		"requiredTech": "Bronze Working"
 	},
 	
 	// Middle East
@@ -33,7 +23,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Bazar",
+		"name": "ME Bazaar",
 		"replaces": "Market",
 		"uniqueTo": "Middle East",
 		"gold": 2,
@@ -51,15 +41,15 @@
 		"replaces": "Bank",
 		"uniqueTo": "Western Europe",
 		"gold": 2,
+		"production": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
-		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
 	{
-		"name": "Coffee Hose",
+		"name": "WE Coffee House",
 		"replaces": "Windmill",
 		"uniqueTo": "Western Europe",
 		"production": 2,
@@ -88,7 +78,7 @@
 	
 	// Africa
 	{
-		"name": "Sstele",
+		"name": "African's Stele",
 		"replaces": "Monument",
 		"uniqueTo": "Africa",
 		"culture": 2,
@@ -99,32 +89,23 @@
 		"uniques": ["Destroyed when the city is captured"] //"Hidden when religion is disabled"
 	},
 	{
-		"name": "Burials Tomb",
+		"name": "African's Temple",
 		"replaces": "Temple",
 		"uniqueTo": "Africa",
 		"maintenance": 0,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
-		"faith": 2,
-		"happiness": 2,
-		"requiredBuilding": "Shrine",
-		"hurryCostModifier": 25,
-		"requiredTech": "Philosophy"
-	},
-	{
-		"name": "Mud Pyramid Masjeed",
-		"uniqueTo": "Africa",
-		"maintenance": 0,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be next to [Desert]"],
 		"culture": 2,
 		"faith": 2,
+		"happiness": 2,
+		"cost": 120,
 		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
 		"requiredTech": "Philosophy"
 	},
 	
 	// NS America
 	{
-		"name": "Pyramed",
+		"name": "NS Pyramid",
 		"replaces": "Shrine",
 		"uniqueTo": "NS America",
 		"faith": 2,
@@ -149,7 +130,17 @@
 	
 	// Oceania
 	{
-		"name": "Muggal Fort",
+		"name": "Krepos",
+		"replaces": "Barracks",
+		"uniqueTo": "Oceania",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% Gold cost of acquiring tiles [in this city]",
+			"New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "TR Mughal Fort",
 		"cost": 150,
 		"replaces": "Castle",
 		"uniqueTo": "Oceania",
@@ -162,7 +153,7 @@
 		"requiredTech": "Chivalry"
 	},
 	{
-		"name": "Waat",
+		"name": "TR Wat",
 		"replaces": "University",
 		"uniqueTo": "Oceania",
 		"maintenance": 2,
