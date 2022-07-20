@@ -606,7 +606,7 @@ UnitIcons/Foreign Legiun
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Generals
+UnitIcons/General
   rotate: false
   xy: 652, 401
   size: 100, 100
