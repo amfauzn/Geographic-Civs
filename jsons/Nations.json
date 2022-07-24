@@ -55,7 +55,7 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [213,249,255],
 		//No favored religion
-		"uniqueName": "Ingenuity of Trading and Barbary Corsairs Legacy",
+		"uniqueName": "Ingenuity of Trading of Barbary Corsairs Legacy",
 		"uniqueText": "All uniques of Babylon, Arabia, Ottomans, and Persia.",
 		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster", 
 			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced", "[-66]% maintenance costs for [Water] units",
@@ -198,7 +198,7 @@
 		"name": "NS America",
 		"leaderName": "Union",
 		"adjective": ["americans"],
-		"startBias": ["Jungle", "Forest", "Hill"],
+		"startBias": ["Jungle","Forest","Hill"],
 		//No preferred victory type
 		//"style": "American",
 		
@@ -251,8 +251,8 @@
 		"outerColor": [255,255,78],
 		"innerColor": [0, 0, 0],
 		//No favored religion
-		"uniqueName": "Siberian Finding Children's Growth",
-		"uniqueText": "All uniques of Polynesia, Siam, India, and Rusia",
+		"uniqueName": "Children's Growth of Siberian Wayfinding",
+		"uniqueText": "All uniques of Polynesia, Siam, India, and Rusia.",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", 
 			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", 
 			"[+10]% Strength <within [2] tiles of a [Moai]>", "[+50]% [Food] from City-States", "[+50]% [Culture] from City-States", 
