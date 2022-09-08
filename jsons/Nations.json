@@ -23,14 +23,13 @@
 		"innerColor": [9, 112, 84],
 		//No favored religion
 		"uniqueName": "God's Art Scholars of Bushido Terror",
-		"uniqueText": "All uniques of Japan, China, Mongolia, Korea, and The Huns without 'borrow' cities name.",
+		"uniqueText": "All uniques of Japan, China, Mongolia, and Korea.",
 		"uniques": ["Damage is ignored when determining unit Strength <for [non-air] units>", "Great General provides double combat bonus", 
 			"[Great General] is earned [50]% faster", "+30% Strength when fighting City-State units and cities", "[+1] Movement <for [Mounted] units>", 
 			"[+2 Science] from every specialist [in all cities]", "[+2 Science] from every [Great Improvement]", 
-			"Receive a tech boost when scientific buildings/wonders are built in capital", "[+1 Production] from every [Pasture]", 
-			"Cities are razed [2] times as fast", "Starts with [Animal Husbandry]"],
-		"cities": ["Nippon","Tiongkok","Mongol","Kroya","Huns","Taiwan","Tottori","Xikang","Tes","Anju",
-			"Magnitogorsk","Pyongyang","Taipei","Hong Kong","Macau"]
+			"Receive a tech boost when scientific buildings/wonders are built in capital"],
+		"cities": ["Nippon","Tiongkok","Mongol","Kroya","Taiwan","Tottori","Xikang","Tes","Anju",
+			"Magnitogorsk","Pyongyang","Taipei","Hong Kong","Macau","Tibet"]
 	},
 	{
 		"name": "Middle East",
@@ -58,7 +57,7 @@
 		"uniqueName": "Ingenuity of Trading of Barbary Corsairs Legacy",
 		"uniqueText": "All uniques of Babylon, Arabia, Ottomans, and Persia.",
 		"uniques": ["Receive free [Great Scientist] when you discover [Writing]", "[Great Scientist] is earned [50]% faster", 
-			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced", "[-66]% maintenance costs for [Water] units",
+			"[+1 Gold] from each Trade Route", "Double quantity of [Oil] produced", "[-66]% maintenance costs <for [Water] units>", 
 			"When defeating a [{Barbarian} {Water}] unit, earn [25] Gold and recruit it <with [50]% chance>", "[+50]% Golden Age length", 
 			"[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Babylon","Arabia","Ottomans","Persia","Tayma","Oran","Yalova","Phrada","Riblah","Algiers",
@@ -89,7 +88,7 @@
 		//No favored religion
 		"uniqueName": "Diplomatic Teutonicus Régime Company",
 		"uniqueText": "All uniques of Austria, France, Germany, and Netherland.",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "[-25]% maintenance costs for [Land] units", 
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", "[-25]% maintenance costs <for [Land] units>", 
 			"[+2 Culture] [in all cities] <before discovering [Steam Power]>", "When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>", 
 			"Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
 		"cities": ["Austria","France","Deutschland","Holland","Steyr","Calais","Erlangen","Kerkrade","Saalbach","Lienz",
@@ -224,7 +223,7 @@
 			"No Maintenance costs for improvements in [Hill] tiles", "[+1] Sight <for [{Military} {Land}] units>", 
 			"Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.", 
-			"[-50]% Gold cost of acquiring tiles [in all cities]"],
+			"[-50]% Gold cost of acquiring tiles [in all cities]", "Earn [100]% of killed [Military] unit's [Strength] as [Culture]"],
 		"cities": ["Aztecs","Inca","Maya","Iroquis","America","Tyendinaga","Hahta","Ayotzinco","Iztapam","Chucuito",
 			"Choquequirao","Zaculeu","Kabah","Santa Cruz","Little Rock"]
 	},
@@ -252,15 +251,16 @@
 		"innerColor": [0, 0, 0],
 		//No favored religion
 		"uniqueName": "Children's Growth of Siberian Wayfinding",
-		"uniqueText": "All uniques of Polynesia, Siam, India, and Rusia.",
+		"uniqueText": "All uniques of Polynesia, Siam, India, Rusia, and The Huns without 'borrow' cities name.",
 		"uniques": ["Enables embarkation for land units <starting from the [Ancient era]>", 
 			"Enables [All] units to enter ocean tiles <starting from the [Ancient era]>", "Normal vision when embarked <for [All] units>", 
 			"[+10]% Strength <within [2] tiles of a [Moai]>", "[+50]% [Food] from City-States", "[+50]% [Culture] from City-States", 
 			"[+50]% [Faith] from City-States", "Military Units gifted from City-States start with [+10] XP", 
 			"Unhappiness from number of Cities doubled", "[-50]% Unhappiness from [Population] [in all cities]", 
 			"[+1 Production] from every [Strategic resource]", "Double quantity of [Horses] produced",
-			"Double quantity of [Iron] produced", "Double quantity of [Uranium] produced"],
-		"cities": ["Polynesia","Siam","Rusia","India","Nuguria","Pileni","Nukumanu","Khon Kaen","Surin","Suva","South Tarawa",
+			"Double quantity of [Iron] produced", "Double quantity of [Uranium] produced", 
+			"[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]"],
+		"cities": ["Polynesia","Siam","Rusia","India","Huns","Nuguria","Pileni","Nukumanu","Khon Kaen","Surin","Suva","South Tarawa",
 			"Karachi","Doha","Majuro","Palikir","Yaren","Palau","Port Moresby"]
 	}
 ]

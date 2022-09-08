@@ -1,38 +1,6 @@
 [
 	// East Asia
 	{
-		"name": "Archery Horse",
-		"unitType": "Archery",
-		"uniqueTo": "East Asia",
-		"replaces": "Chariot Archer",
-		"movement": 4,
-		"strength": 7,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
-		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
-		"uniqueTo": "East Asia",
-		"movement": 2,
-		"strength": 10,
-		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
-			"[-1] Sight", "Can only attack [City] units"],
-		"promotions":  ["Cover I"],
-		"attackSound": "throw"
-	},
-	{
 		"name": "EA Keshik",
 		"unitType": "Archery",
 		"replaces": "Knight",
@@ -727,5 +695,37 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Archery Horse",
+		"unitType": "Archery",
+		"uniqueTo": "Oceania",
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus"],
+		"promotions": ["Accuracy I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Ram",
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"replaces": "Spearman",
+		"uniqueTo": "Oceania",
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+			"[-1] Sight", "Can only attack [City] units"],
+		"promotions":  ["Cover I"],
+		"attackSound": "throw"
 	},
 ]

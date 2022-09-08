@@ -5,7 +5,8 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"culture": 1,
 		"turnsToBuild": 4,
-		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>"],
+		"uniques": ["Can only be built on [Coastal] tiles", "[+1 Culture] for each adjacent [Moai]", "[+1 Gold] <after discovering [Flight]>", 
+					"Pillaging this improvement yields approximately [+10 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "M"
 	},
@@ -16,9 +17,10 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["Cannot be built on [Bonus resource] tiles",
-			"[+1 Food] for each adjacent [Mountain]",
-			"[+1 Food] on [Fresh water] tiles <after discovering [Civil Service]>",
-			"[+1 Food] on [non-fresh water] tiles <after discovering [Fertilizer]>"],
+					"[+1 Food] for each adjacent [Mountain]",
+					"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+					"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+					"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Construction",
 		"shortcutKey": "F"
 	},
@@ -28,7 +30,8 @@
 		"food": 3,
 		"terrainsCanBeBuiltOn": ["Marsh", "Flood plains"],
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>"],
+		"uniques": ["[+1 Production, +2 Gold] <after discovering [Economics]>", 
+					"Pillaging this improvement yields approximately [+18 Gold]"],
 		"techRequired": "Guilds",
 		"shortcutKey": "F"
 	}
