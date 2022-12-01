@@ -37,7 +37,7 @@
 	
 	// Western Europe
 	{
-		"name": "Hanse",
+		"name": "Hansa",
 		"replaces": "Bank",
 		"uniqueTo": "Western Europe",
 		"gold": 2,

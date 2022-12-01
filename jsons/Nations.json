@@ -20,7 +20,7 @@
 		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
 
 		"outerColor": [215,225,225],
-		"innerColor": [9, 112, 84],
+		"innerColor": [ 9, 112, 84],
 		//No favored religion
 		"uniqueName": "God's Art Scholars of Bushido Terror",
 		"uniqueText": "All uniques of Japan, China, Mongolia, and Korea.",
@@ -45,13 +45,13 @@
 		"declaringWar": "The world will be more beautiful without you. Prepare for war.",
 		"attacked": "Good. The world shall witness the incontestable might of my armies and the glory of the Empire.",
 		"defeated": "It is over. Perhaps now I shall have peace, at last.",
-		"introduction": "Welcome foreigner, I am Council, Father of the Arabs. Come and tell me about your empire.",
+		"introduction": "Welcome foreigner, we are Council of Arabs. Come and tell me about your empire.",
 		
 		"neutralHello": "Greetings.",
 		"hateHello": "What do YOU want?!",
 		"tradeRequest": "Come forth, let's do business.",
 
-		"outerColor": [ 41,83,42],
+		"outerColor": [ 41, 83 ,42],
 		"innerColor": [213,249,255],
 		//No favored religion
 		"uniqueName": "Ingenuity of Trading of Barbary Corsairs Legacy",
@@ -72,19 +72,19 @@
 		//"style": "European",
 		
 		"startIntroPart1": "Long life and triumph to you, First Consul and Emperor of Western Europe, Chancellor. The Western-european people have proven themselves to be creative, industrious and ferocious warriors. Although surrounded by competitors - and often enemies - Western Europe has endured as a great nation. Its armies have marched triumphantly into battle from one end of the world to the other, its soldiers and generals among the best in history.",
-		"startIntroPart2": "brave Chancellor, will you build a civilization that can stand the test of time?",
+		"startIntroPart2": "Brave Chancellor, will you build a civilization that can stand the test of time?",
 		
-		"declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely. ",
+		"declaringWar": "Shame that it has come this far. But ye wished it so. Next time, be so good, choose your words more wisely.",
 		"attacked": "You've fallen into my trap. I'll bury you.",
 		"defeated": "Western Europe has been destroyed. I weep for the future generations.",
-		"introduction": "I am Chancellor. Did you need anything? I still have a lot to do.",
+		"introduction": "I am Chancellor of Western Europe. Did you need anything? I still have a lot to do.",
 		
 		"neutralHello": "Once again, greetings.",
 		"hateHello": "So, out with it!",
 		"tradeRequest": "I offers you this exceptional proposition.",
 
-		"outerColor": [234,0,0],
-		"innerColor": [ 38, 98, 255],
+		"outerColor": [ 0, 0, 120],
+		"innerColor": [98,158,255],
 		//No favored religion
 		"uniqueName": "Diplomatic Teutonicus Régime Company",
 		"uniqueText": "All uniques of Austria, France, Germany, and Netherland.",
@@ -145,7 +145,7 @@
 		
 		"neutralHello": "Hail.",
 		"hateHello": "What?",
-		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions.  Show me.",
+		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions. Show me.",
 
 		"outerColor": [ 41,83,42],
 		"innerColor": [213,249,255],
@@ -168,13 +168,13 @@
 		//No preferred victory type
 		//"style": "African",
 		
-		"startIntroPart1": "May the blessings of God, who is greatest of all, be upon you Union, leader of the Africa people! For many years your people was a vassal of the mighty African, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
+		"startIntroPart1": "May the blessings of God, who is greatest of all, be upon you Union, leader of the Africa people! From time immemorial your people lived on the banks of river, where they brought writing to the world, and advanced mathematics, sculpture, and architecture. Thousands of years ago they created the great monuments which still stand tall and proud.",
 		"startIntroPart2": "Oh, Union, will you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "You are an abomination to heaven and earth, the chief of ignorant savages! You must be destroyed!",
 		"attacked": "It is silence that allows evil to triumph. We will not stand mute and allow you to continue on this mad quest unchecked.",
 		"defeated": "The fates became to hate me. This is it? You wouldn't destroy us so without their help.",
-		"introduction": "Greetings, I am union. I am the living embodiment of Africa, mother and father of all civilizations.",
+		"introduction": "Greetings, we are union. We are the living embodiment of Africa, mother and father of all civilizations.",
 		
 		"neutralHello": "Good day.",
 		"hateHello": "Oh, it's you.",
@@ -201,8 +201,8 @@
 		//No preferred victory type
 		//"style": "American",
 		
-		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, King Union, ruler of American people! From the beginnings, the Americans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
-		"startIntroPart2": "O great king Union, will you build a civilization that can stand the test of time?",
+		"startIntroPart1": "Oh ye who remakes the world, your loyal subjects greet you, Union, ruler of American people! From the beginnings, the Americans displayed their potential for greatness, marching to war against their many enemies, crushing their armies into dust and carving for themselves a mighty empire. More than mere soldiers, your people were great builders and artists as well, and the remnants of their works still awe and inspire the world today.",
+		"startIntroPart2": "O great Union, will you build a civilization that can stand the test of time?",
 		
 		"declaringWar": "You are a plague upon Mother Earth! Prepare for battle!",
 		"attacked": "You evil creature! My braves will slaughter you!",
@@ -210,7 +210,7 @@
 		"introduction": "The people of the America welcome you.",
 		
 		"neutralHello": "Good day.",
-		"hateHello": "So?"
+		"hateHello": "Well?",
 		"tradeRequest": "Accept this agreement or suffer the consequences.",
 
 		"outerColor": [3,115,86],

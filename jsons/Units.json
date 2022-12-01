@@ -187,21 +187,6 @@
 	
 	// Western Europe
 	{
-		"name": "Landsknect",
-		"unitType": "Sword",
-		"replaces": "Pikeman",
-		"uniqueTo": "Western Europe",
-		"movement": 2,
-		"strength": 16,
-		"cost": 45,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can move immediately once bought" ],
-		"upgradesTo": "Lancer",
-		"obsoleteTech": "Gunpowder",
-		"attackSound": "metalhit"
-		//"Requires [Mercenary Army]" in BNW
-	},
-	{
 		"name": "Beggar",
 		"unitType": "Melee Water",
 		"replaces": "Privateer",
